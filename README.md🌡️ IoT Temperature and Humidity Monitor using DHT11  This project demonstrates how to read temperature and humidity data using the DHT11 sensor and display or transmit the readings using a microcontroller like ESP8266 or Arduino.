@@ -1,0 +1,32 @@
+🌡️IoT Temperature and Humidity Monitor using DHT11
+In this project, demonstrates how to read temperature and humidity data, using the DHT11 sensor and display or transmit the readings using a microcontroller like ESP8266 or Arduino.
+
+📌Project Overview
+The system reads environmental temperature and humidity from the DHT11 sensor and displays the values on a serial monitor . It's suitable for beginners and can be extended to smart home or industrial monitoring systems.
+
+🛠️Technologies & Tools
+- Microcontroller: ESP8266 (NodeMCU) / Arduino Uno / ESP32  
+- Sensor: DHT11 (Digital Temperature & Humidity Sensor)  
+- Language: C / Embedded C (Arduino IDE)  
+- Libraries: `DHT.h` for Arduino  
+- IDE: Arduino IDE / PlatformIO (VS Code)  
+- Display: Serial Monitor / OLED / LCD (optional)
+
+Pin Diagram
+DHT11 Pin     	Connection
+VCC	            3.3V / 5V
+DATA	          D2 (or GPIO4)
+GND           	GND
+You can use a 10K pull-up resistor between VCC and DATA pin for better signal stability.
+
+🧾 Features
+- Reads temperature and humidity from DHT11 sensor
+- Displays data on serial monitor or OLED (optional)
+- Can be extended to send data to cloud platforms like Firebase, Blynk, or Thingspeak
+- Suitable for home automation, weather stations, and environment monitoring
+
+🚀 Future Improvements
+- Add OLED or LCD display
+- Integrate with WiFi for remote monitoring
+- Log data to Firebase or an SD card
+- Add alerts using a buzzer or LED
